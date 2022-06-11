@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <!--------------------------------------------------------------->
+
+    <header class="header">
+      <a href="/" class="logo"
+        ><img src="/images/logo2.png" class="logo-img" alt="Dolphin" />
+        <h1>Dolphinn</h1>
+      </a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="/ebikes.html">E-BIKES</a></li>
+        <li><a href="/about.html">OVER ONS</a></li>
+        <li><a href="/contact.html">CONTACT</a></li>
+      </ul>
+    </header>
+    <main>
+      <!--------------------------------------------------------------->
+
+      <section class="img-banner">
+        <div class="container">
+          <div class="banner-text">
+            <div><h2>Contact met</h2></div>
+            <div><h3>Dolphinn fietsen</h3></div>
+          </div>
+        </div>
+      </section>
+
+      <!--------------------------------------------------------------->
+
+      <section class="bg-contact">
+        <article class="contact-section">
+          <div class="contact-header">
+            <h3>Informatie over garanntie of onderhoudt</h3>
+          </div>
+          <div class="contact">
+            <p>
+              Heb je een vraag over het onderhoud van je fiets? Onze
+              professionele dealers helpen je graag met al je vragen over
+              onderhoud en garantie.
+            </p>
+          </div>
+        </article>
+        <article class="contact-section">
+          <div class="contact-header">
+            <h3>Direct iets vragen aan Dolphinn fietsen</h3>
+          </div>
+          <div class="contact">
+            <p>
+              Heb je een vraag over Dolphinn fietsen, of heb je een andere vraag
+              of suggestie? Die stel je makkelijk en snel via onderstaand
+              contactformulier.
+            </p>
+          </div>
+        </article>
+        <div class="contact-section">
+          <form id="contact-form" action="/" method="post" data-netlify="true">
+            <div class="dropdown-container">
+              <label class="dropdown-label">Waar gaat uw vraag over?</label>
+              <select id="type" name="type" class="dropdown-select">
+                <option value="">--Maak een keuze--</option>
+                <option value="Information request">Informatie</option>
+                <option value="Order-,delivery- or invoice">
+                  Bestellingen
+                </option>
+                <option value="Shipment and transport">
+                  Levering en transport
+                </option>
+                <option value="Warranty claimes">Garantie</option>
+                <option value="Dealer service">Dealer feedback</option>
+                <option value="Sugestions">Ideeënbox</option>
+                <option value="Request">Overige vragen</option>
+              </select>
+              <label for="fname">Voornaam</label>
+              <input
+                type="text"
+                name="Firstname"
+                id="fname"
+                placeholder="Voornaam"
+              />
+              <label for="lname">Achternaam</label>
+              <input
+                type="text"
+                name="Lastname"
+                id="lname"
+                placeholder="Achternaam"
+              />
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="naam@email.com"
+              />
+              <label for="tel">Telefoonnummer</label>
+              <input
+                type="tel"
+                name="Telephone"
+                id="tel"
+                placeholder="Telefoonnummer"
+              />
+              <label for="frnumber">Framenummer (Optioneel)</label>
+              <input
+                type="text"
+                name="Framenumber"
+                id="frnumber"
+                placeholder="Framenummer"
+              />
+              <label for="dname">Dealernaam (Optioneel)</label>
+              <input
+                type="text"
+                name="Bike dealer name"
+                id="dname"
+                placeholder="Dealernaam"
+              />
+              <label for="subject" class="contact-name">Onderwerp</label>
+              <input
+                class="contact-subject"
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Onderwerp"
+              />
+              <label for="message" class="contact-message">Bericht</label>
+              <textarea
+                name="Message"
+                id="message"
+                cols="30"
+                rows="5"
+                placeholder="Bericht"
+              ></textarea>
+              <input type="submit" value="Verzenden" />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!--------------------------------------------------------------->
+
+      <section>
+        <div class="container">
+          <form action="#">
+            <div class="news">
+              <div class="newsletter">
+                <h3>Nieuwsbrief</h3>
+                <p>
+                  Wil je op de hoogte blijven van nieuwe modellen of
+                  ontwikkelingen? schrijf je dan in voor de nieuwsbrief!
+                </p>
+              </div>
+              <div class="news-input">
+                <div class="news-email">
+                  <input
+                    type="text"
+                    name="EmailAddress"
+                    placeholder="Type hier jou mailadres in"
+                  />
+                </div>
+                <div class="news-btn">
+                  <button
+                    type="submit"
+                    value="subscribe"
+                    onclick="alert(' Gelukt! \n Dank u wel voor het aanmelden!')"
+                  >
+                    Versturen
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--------------------------------------------------------------->
+
+    <footer class="footer">
+      <div>
+        <div class="footernav-row">
+          <div class="footernav-col">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="/ebikes.html">E-bikes</a></li>
+              <li><a href="/about.html">Over ons</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footernav-col">
+            <h4>Informatie</h4>
+            <ul>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+          <div class="footernav-col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Garantie</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footernav-col">
+            <h4>Social media</h4>
+            <div class="social-icons">
+              <ul>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>© DOLPHINN fietsen. Alle rechten voorbehouden.</p>
+      </div>
+    </footer>
+  </body>
+</html>
