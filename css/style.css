@@ -167,7 +167,7 @@ h3{
 /* ------Banner section ------ */
 
 .img-banner{
-  background-image: url("/images/dolphinn-nexus-banner.jpg");
+  background-image: url("images/dolphinn-nexus-banner.jpg");
   position: relative;
   display: block;
   height: 500px;
@@ -226,16 +226,16 @@ h3{
   border-radius: 15px;
 }
 .product-img-1{
-  background-image: url("/images/dolphinn-nexus.jpg");
+  background-image: url("images/dolphinn-nexus.jpg");
 }
 .product-img-2{
-  background-image: url("/images/dolphinn-nexusltd.jpg");
+  background-image: url("images/dolphinn-nexusltd.jpg");
 }
 .product-img-3{
-  background-image: url("/images/dolphinn-giraf.jpg");
+  background-image: url("images/dolphinn-giraf.jpg");
 }
 .product-img-4{
-  background-image: url("/images/dolphinn-nexusltdblack.jpg");
+  background-image: url("images/dolphinn-nexusltdblack.jpg");
 }
 .product a{
   text-decoration: none;
@@ -264,7 +264,7 @@ h3{
 /* ------Marketing section------ */
 
 .bg-marketing{
-  background-image: url("/images/bg-sunset.jpg");
+  background-image: url("images/bg-sunset.jpg");
   position: relative;
   display: block;
   height: 500px;
@@ -321,7 +321,7 @@ h3{
   width: auto;
 }
 .info-img{
-  background-image: url("/images/dolphinn-batt.jpg");
+  background-image: url("images/dolphinn-batt.jpg");
 }
 .info h3,
 .info p{
@@ -357,7 +357,7 @@ h3{
   width: auto;
 }
 .motor-img{
-  background-image: url("/images/dolphinn-motor.jpg");
+  background-image: url("images/dolphinn-motor.jpg");
 }
 
 .motor h3,
@@ -396,7 +396,7 @@ h3{
   width: auto;
 }
 .charger-img{
-  background-image: url("/images/Dolphinn-charger.png");
+  background-image: url("images/Dolphinn-charger.png");
 }
 
 .charger h3,
@@ -457,16 +457,16 @@ h3{
   border-radius: 15px;
 }
 .ebike-img-1{
-  background-image: url("/images/dolphinn-nexus.jpg");
+  background-image: url("images/dolphinn-nexus.jpg");
 }
 .ebike-img-2{
-  background-image: url('/images/dolphinn-nexusltd.jpg');
+  background-image: url('images/dolphinn-nexusltd.jpg');
 }
 .ebike-img-3{
-  background-image: url('/images/dolphinn-giraf.jpg');
+  background-image: url('images/dolphinn-giraf.jpg');
 }
 .ebike-img-4{
-  background-image: url('/images/dolphinn-nexusltdblack.jpg');
+  background-image: url('images/dolphinn-nexusltdblack.jpg');
 }
 .ebike-title{
   padding: 5px;
@@ -561,16 +561,16 @@ ul.breadcrumb li a:hover {
   border-radius: 15px;
 }
 .nexus-img-1{
-  background-image: url("/images/dolphinn-nexus.jpg");
+  background-image: url("images/dolphinn-nexus.jpg");
 }
 .nexus-img-2{
-  background-image: url("/images/dolphinn-nexusltd.jpg");
+  background-image: url("images/dolphinn-nexusltd.jpg");
 }
 .nexus-img-3{
-  background-image: url("/images/dolphinn-giraf.jpg");
+  background-image: url("images/dolphinn-giraf.jpg");
 }
 .nexus-img-4{
-  background-image: url("/images/dolphinn-nexusltdblack.jpg");
+  background-image: url("images/dolphinn-nexusltdblack.jpg");
 }
 .nexus-title h2{
   font-size: 16px;
